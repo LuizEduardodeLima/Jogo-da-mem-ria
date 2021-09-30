@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+	background-color: rgb(65, 34, 142);
+}
+
+.caixa{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.t100{
+	width: 100%;
+}
+
+.titulo{
+	margin-top: 5%;
+	font-family: 'Luckiest Guy', cursive;
+	color: rgb(255, 158, 43);
+	text-align: center;
+}
+.titulo:hover{
+	font-size: 20px;
+}
+
+.t80{
+	background-color: red;
+	width: 80%;
+	height: 100%;
+	margin-top: 3%;
+	margin-left: 10%;
+	padding-top: 3%;
+	border: 1px solid rgb(255, 158, 43);
+	border-radius: 25px;
+	background-color: rgb(54, 25, 127);
+	padding-bottom: 4%;
+}
+
+.mensagem{
+	text-align: center;
+	color: white;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 18px;
+}
+
+.mensagem2{
+	text-align: center;
+	color: white;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 18px;
+}
+
+.start{
+	width: 50%;
+	height: 50px;
+	font-size: 25px;
+	margin-top: 2%;
+	font-family: 'Luckiest Guy', cursive;
+	margin-left: 25%;
+	border: 2px solid white;
+	background-color: rgb(254, 116, 79);
+	color:  white;
+}
+
+.continuar{
+	width: 50%;
+	height: 50px;
+	font-size: 25px;
+	margin-top: 2%;
+	font-family: 'Luckiest Guy', cursive;
+	margin-left: 25%;
+	border: 2px solid white;
+	background-color: rgb(254, 116, 79);
+	color:  white;
+}
+
+.start:hover{
+	height: 70px;
+	width: 60%;
+	margin-left: 20%;
+	color: black;
+}
+.personagens{
+	display: flex;
+	flex-direction: row;
+}
+
+.t50{
+	width: 50%;
+	text-align: center;
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+	font-size: 22px;
+}
+
+.esconder{
+	display: none;
+}
+
+.pecas{
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 3%;
+	border: 1px solid rgb(255, 158, 43);
+	border-radius: 25px;
+	background-color: rgb(54, 25, 127);
+	padding-bottom: 4%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.t20{
+	width: 20%;
+	background-color: tomato;
+	text-align: center;
+	border: solid 1px white;
+	color: black;
+	background-color: black;
+	margin-top: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 3.8%;
+	justify-content: center;
+	align-items: center;
+}
+
+.t30{
+	width: 30%;
+	text-align: center;
+	color: black;
+	margin-left: 15%;
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+	font-size: 26px;
+}
+
+.placar{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid tomato;
+	width: 80%;
+	text-align: center;
+	margin-bottom: 20px;
+	height: 100%;
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+	font-size: 26px;
+}
+
+.mensagens{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid tomato;
+	margin-top: 20px;
+	width: 80%;
+	font-family: 'Luckiest Guy', cursive;
+	color: rgb(255, 158, 43);
+	margin-bottom: 20px;
+	display: none;
+}
+
+.aviso{
+	width: 100%;
+	text-align: center;
+}
+
+.jogador{
+	width: 50%;
+}
+
+.maquina{
+	width: 50%;
+}
+
+.partida{
+	display: none;
+}
+
+.link{
+	color: rgb(255, 158, 43);
+	text-decoration: none rgb(255, 158, 43);
+	font-size: 22px;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.link:hover{
+	text-decoration: underline rgb(255, 158, 43);
+}
+
+footer{
+	margin-top: 5%;
+	font-family: Arial;
+	color: white;
+	font-size: 17px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da memória - LuizEduLima</title>
+    <!-- Linkando nosso arquivo css -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!-- Link cdn fonts awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Icone usado no título da página -->
+    <link rel="sortcut icon" href="icone/icone.png" type="image/x-icon"/>
+</head>
+<body>
+
+    <div class="caixa">
+        
+        <div class="titulo">
+            <h1><i class="fas fa-heart"></i>&nbsp;&nbsp;Jogo da Memória com Biblioteca Fonts awesome&nbsp;&nbsp;<i class="fas fa-cat"></i></h1>
+        </div>
+
+        <div class="t100">
+            <div class="t80 tela1">
+                <p class="mensagem"><i class="fas fa-dice-d6"></i>&nbsp;&nbsp;Aperte Start para iniciar o jogo&nbsp;&nbsp;<i class="fas fa-dice-d20"></i></p>
+
+                <button class="start">Start&nbsp;&nbsp;<i class="fas fa-mouse-pointer"></i></button>
+            </div>
+        </div>
+
+        <!-- Segunda tela -->
+        <div class="t100">
+            <div class="t80 tela2 esconder">
+
+                <p class="mensagem"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Selecione um adversário para jogar contra você&nbsp;&nbsp;<i class="fas fa-people-arrows"></i></p>
+                
+                <div class="personagens">
+                    <div class="t50 astro" ><i class="fas fa-user-astronaut fa-3x" onmouseover="entrou('fa-user-astronaut')" onmouseout="saiu('fa-user-astronaut')"></i></div>
+
+                    <div class="t50 robo"><i class="fas fa-robot fa-3x" onmouseover="entrou('fa-robot')" onmouseout="saiu('fa-robot')"></i></div>
+                </div>
+
+                <div class="personagens">
+                    <div class="t50">Astronauta</div>
+                    <div class="t50">Robozinho</div>
+                    <audio src="musicas/PYLOT - The Return.mp3"></audio>
+                </div>
+               
+            </div>
+        </div>
+
+         <div class="placar">
+            <div class="jogador">
+                <p>Você</p>
+                <p><i class="fas fa-user-alt"></i></p>
+                <p class="user"></p>
+            </div>
+            <div class="maquina">
+                <p>Máquina</p>
+                <p class="icone"><i class="fas fa-user-alt"></i></p>
+                <p class="machine"></p>
+            </div>
+        </div>
+        
+        <!-- Tela de mensagens -->
+        <div class="mensagens">
+            <p class="aviso">Luiz Eduardo de lima</p>
+        </div>
+
+        <!-- Tela da partida -->
+        <div class="t100">
+            <div class="pecas partida"></div>
+        </div>
+
+        <div class="t100">
+            <marquee>
+                <footer>
+                    <a href="https://github.com/LuizEduardodeLima" target="_blank" class="link"><i class="fas fa-copyright fa-1x"></i>&nbsp;&nbsp;Criado por LuizEduLima&nbsp;&nbsp;||</i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-github fa-1x"></i>&nbsp;&nbsp;acesse meu github clicando aqui</a> </p> 
+                </footer>
+            </marquee>
+        </div>
+    </div>
+
+    <!-- Cdn jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Script do jogo -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
