@@ -5,7 +5,7 @@ Jogo da memória criado com Html, Css e Javascript.
 * <a name="section" href="https://luizeduardodelima.github.io/Jogo-da-memoria/" target="_blank">Clique aqui para jogar<a/>
 
 ### Funcionalidades do programa:
-* Tela inicial de start
+* Tela inicial
 * Tela para escolher personagem
 * Personagem astrounata no modo easy - muito fácil jogar contra ele
 * Personagem robozinho no modo hard - impossível vencer a partida
